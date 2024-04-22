@@ -106,7 +106,8 @@ Depois clique em DEPLOY
 https://github.com/nocodeleaks/quepasa
 ```
 
-![image](https://github.com/cwmkt/dockerquepasa/assets/91642837/44395470-393b-4de3-980e-d096e4949557)
+![image](https://github.com/cwmkt/dockerquepasa/assets/91642837/9a69690d-8c7e-4ed9-a5ca-ce9632a05456)
+
 
 Suba pasta \quepasa-main\src do Quepasa dentro
 
