@@ -16,6 +16,12 @@
 
 ![image](https://github.com/cwmkt/dockerquepasa/assets/91642837/623a6dc6-c231-4105-9a02-3070d894adb8)
 
+Lembre de Alterar os dados 
+
+seudominio.com.br<br>
+seuemail@seuemail.com.br
+
+
 ```bash
 version: "3.8"
 
@@ -38,7 +44,7 @@ services:
             - WEBHOOK_QUEPASA=seudominio.com.br/webhook/quepasa
             - WEBHOOK_TESTE_QUEPASA=seudominio.com.br/webhook-test/quepasa
             # Configurações quepasa
-            - APP_TITLE=suaempresa
+            - APP_TITLE=QUEPASA
             - QUEPASA_HOST_NAME=QUEPASA
             - QUEPASA_MEMORY_LIMIT=4096M
             - QUEPASA_EXTERNAL_PORT=31000
