@@ -110,5 +110,10 @@ Suba pasta \quepasa-main\src do Quepasa dentro
 ```bash
 /var/lib/docker/volumes/quepasa_lab_volume/_data
 ```
+![image](https://github.com/cwmkt/dockerquepasa/assets/91642837/41261d30-67dc-4866-a693-3d30c771e316)
+
+Acesse: seudominio.com.br/setup
+
+Faça seu cadastro
 
 **Pronto tudo Funcionando** ✅😎
