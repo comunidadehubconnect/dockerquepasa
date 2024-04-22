@@ -20,7 +20,7 @@ Lembre de Alterar os dados
 
 seudominio.com.br<br>
 seuemail@seuemail.com.br
-
+sua_rede
 
 ```bash
 version: "3.8"
@@ -34,7 +34,7 @@ services:
             - quepasa_lab_volume:/opt/quepasa
             - quepasa_lab_builder_volume:/builder
         networks:
-            - ecosystem_network
+            - sua_rede
         environment:
             - DOMAIN=seudominio.com.br
             - EMAIL=seuemail@seuemail.com.br
@@ -69,7 +69,7 @@ services:
                     
             labels:
                 - traefik.enable=true
-                - traefik.docker.network=ecosystem_network
+                - traefik.docker.network=sua_rede
                 - traefik.http.routers.quepasa_lab.rule=Host(`seudominio.com.br`)
                 - traefik.http.routers.quepasa_lab.tls=true
                 - traefik.http.routers.quepasa_lab.entrypoints=web,websecure
@@ -96,9 +96,9 @@ volumes:
     name: quepasa_lab_builder_volume
 
 networks:
-  ecosystem_network:
+  sua_rede:
     external: true
-    name: ecosystem_network        
+    name: sua_rede 
 ```
 
 Depois clique em DEPLOY
@@ -115,7 +115,7 @@ https://github.com/nocodeleaks/quepasa
 ![image](https://github.com/cwmkt/dockerquepasa/assets/91642837/9a69690d-8c7e-4ed9-a5ca-ce9632a05456)
 
 
-Suba pasta \quepasa-main\src do Quepasa dentro
+Suba pasta \quepasa-main\src do Quepasa dentro volume
 
 ```bash
 /var/lib/docker/volumes/quepasa_lab_volume/_data
