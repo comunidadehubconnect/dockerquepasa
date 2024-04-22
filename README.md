@@ -95,6 +95,11 @@ networks:
     name: ecosystem_network        
 ```
 
+Depois clique em DEPLOY
+
+![image](https://github.com/cwmkt/dockerquepasa/assets/91642837/bdc62781-993a-4d31-b8cd-5cd6466900f5)
+
+
 ### Baixe os arquivos no Git oficial 
 
 ```bash
