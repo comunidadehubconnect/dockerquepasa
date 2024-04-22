@@ -12,7 +12,7 @@
 <hr />
 <hr />
 
-### Stack > add stack
+### Adicione Stack abaixo, Stack > add stack
 
 ![image](https://github.com/cwmkt/dockerquepasa/assets/91642837/623a6dc6-c231-4105-9a02-3070d894adb8)
 
@@ -100,23 +100,10 @@ networks:
 ```bash
 https://github.com/nocodeleaks/quepasa
 ```
-## Suba pasta \quepasa-main\src do Quepasa dentro
+Suba pasta \quepasa-main\src do Quepasa dentro
 
 ```bash
 /var/lib/docker/volumes/quepasa_lab_volume/_data
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Pronto tudo Funcionando** ✅😎
