@@ -19,7 +19,7 @@
 Lembre de Alterar os dados 
 
 seudominio.com.br<br>
-seuemail@seuemail.com.br
+seuemail@seuemail.com.br<br>
 sua_rede
 
 ```bash
