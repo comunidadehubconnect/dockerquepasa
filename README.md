@@ -192,9 +192,8 @@ Acesse URL de seu Site e Crie Usuario
 
 Lembre de Alterar os dados 
 
-seudominio.com.br<br>
 seuemail@seuemail.com.br<br>
-sua_rede
+
 
 ```bash
 version: "3.8"
@@ -208,7 +207,7 @@ services:
             - quepasa_lab_volume:/opt/quepasa
             - quepasa_lab_builder_volume:/builder
         networks:
-            - sua_rede
+            - ecosystem_network
         environment:
             - DOMAIN=seudominio.com.br
             - EMAIL=seuemail@seuemail.com.br
@@ -270,7 +269,7 @@ volumes:
     name: quepasa_lab_builder_volume
 
 networks:
-  sua_rede:
+  ecosystem_network:
     external: true
     name: sua_rede 
 ```
