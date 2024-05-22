@@ -271,7 +271,7 @@ volumes:
 networks:
   ecosystem_network:
     external: true
-    name: sua_rede 
+    name: ecosystem_network
 ```
 
 Depois clique em DEPLOY
