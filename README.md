@@ -165,6 +165,7 @@ volumes:
  ```
 
 ```bash
+docker swarm init
 ```
 
 docker swarm init
