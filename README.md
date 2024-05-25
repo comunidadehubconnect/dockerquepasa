@@ -175,42 +175,6 @@ docker network create --driver=overlay ecosystem_network
 docker stack deploy --prune --resolve-image always -c traefik.yml traefik
 ```
 
-```bash
-version: "3.8"
-
-services:
-
-  postgresql:
-    image: bitnami/postgresql:15
-    restart: always
-    environment:
-      POSTGRESQL_USERNAME: userpostgres
-      POSTGRESQL_PASSWORD: senhapostgres
-    networks:
-      - ecosystem_network
-    ports:
-      - 5432:5432
-    volumes:
-      - postgresql_volume:/bitnami/postgresql
-      - postgresql_config_volume:/opt/bitnami/postgresql/conf
-    deploy:
-    
-
-volumes:
-  postgresql_volume:
-    external: true
-    name: postgresql_volume
-  postgresql_config_volume:
-    external: true
-    name: postgresql_config_volume
-    
-networks:
-  ecosystem_network:
-    external: true
-    name: ecosystem_network
-```
-
-Acesse URL de seu Site e Crie Usuario
 
 
 </details>
