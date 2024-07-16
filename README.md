@@ -285,10 +285,9 @@ https://github.com/nocodeleaks/quepasa
 Suba pasta \quepasa-main\src do Quepasa dentro volume
 
 ```bash
-/etc/easypanel/projects/nomedoprojeto/quepasa/volumes/quepasa_lab_volume
+/var/lib/docker/volumes/quepasa_lab_volume/_data
 ```
-![image](https://github.com/user-attachments/assets/64235810-3463-43f2-96d6-e6b2a4d30ba1)
-
+![image](https://github.com/cwmkt/dockerquepasa/assets/91642837/41261d30-67dc-4866-a693-3d30c771e316)
 
 Acesse: seudominio.com.br/setup
 
